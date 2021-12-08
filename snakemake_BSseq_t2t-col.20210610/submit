@@ -1,0 +1,9 @@
+Executable      = condor_submit.sh
+Error           = logs/err.$(cluster)
+Output          = logs/out.$(cluster)
+Log             = logs/log.$(cluster)
+request_cpus    = 38
+request_memory  = 200G
+Requirements    = (machine == "node10.plantsci.internal.cam.ac.uk")
+
+Queue
