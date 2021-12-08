@@ -1,0 +1,27 @@
+THREADS: 32
+SAMPLE: [
+         "Col_0_BSseq_Rep1_ERR965674",
+         "Col_0_BSseq_Rep2_ERR965675",
+         "met1_3_BSseq_Rep1_ERR965676",
+         "met1_3_BSseq_Rep2_ERR965677"
+        ]
+FEATURES:
+      chrName: [
+                "Chr1",
+                "Chr2",
+                "Chr3",
+                "Chr4",
+                "Chr5"
+               ]
+MAPPING:
+      reference: "data/index/t2t-col.20210610"
+COVERAGE:
+      regionBodyLength: 2200
+      startLabel: "TSS"
+      endLabel: "TTS"
+      upstream: 1000
+      downstream: 1000
+      flankName: "1kb"
+      binSize: 10
+      binName: "10bp"
+      sortRegions: "keep"
